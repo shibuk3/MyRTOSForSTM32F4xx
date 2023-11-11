@@ -1,0 +1,6 @@
+../Src/usart.c:3:6:usart_init	1
+../Src/usart.c:55:6:usart_send_char	2
+../Src/usart.c:61:6:usart_send_bytes	2
+../Src/usart.c:69:6:usart_receive_char	2
+../Src/usart.c:75:6:usart_receive_bytes	2
+../Src/usart.c:83:6:print	1

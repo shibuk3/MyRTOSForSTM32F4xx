@@ -1,0 +1,13 @@
+#ifndef __PRIORITY_SCHEDULER_H__
+#define __PRIORITY_SCHEDULER_H__
+
+uint8_t osKernelAddThread((void)*Task0,uint32_t p0,
+                          (void)*Task1,uint32_t p1,
+                          (void)*Task2,uint32_t p2,
+                          (void)*Task3,uint32_t p3,
+                          (void)*Task4,uint32_t p4,
+                          (void)*Task5,uint32_t p5,
+                          (void)*Task6,uint32_t p6,
+                          (void)*Task7,uint32_t p7,)
+
+#endif

@@ -1,0 +1,4 @@
+../Src/CRC.c:3:6:crc_init	1
+../Src/CRC.c:8:6:crc_reset	1
+../Src/CRC.c:12:10:caluculate_crc	2
+../Src/CRC.c:22:10:accumulate_crc	2

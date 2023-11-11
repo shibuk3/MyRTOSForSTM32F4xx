@@ -1,0 +1,8 @@
+../Src/PriorityScheduler.c:95:6:prioritySchedulerTask0	4	static
+../Src/PriorityScheduler.c:103:6:prioritySchedulerTask1	4	static
+../Src/PriorityScheduler.c:115:6:prioritySchedulerTask2	4	static
+../Src/PriorityScheduler.c:123:6:prioritySchedulerTask3	4	static
+../Src/PriorityScheduler.c:131:6:prioritySchedulerTask4	4	static
+../Src/PriorityScheduler.c:139:6:prioritySchedulerTask5	4	static
+../Src/PriorityScheduler.c:147:6:prioritySchedulerTask6	4	static
+../Src/PriorityScheduler.c:155:6:prioritySchedulerTask7	4	static

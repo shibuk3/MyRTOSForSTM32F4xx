@@ -1,0 +1,5 @@
+..//chip_headers/CMSIS/Include/core_cm4.h:1688:22:__NVIC_EnableIRQ	16	static
+../Src/SporadicScheduler.c:6:6:BSPEdgeTriggerInit	8	static,ignoring_inline_asm
+../Src/SporadicScheduler.c:21:6:osEdgeTriggerInit	16	static
+../Src/SporadicScheduler.c:47:6:NormalTask1	8	static
+../Src/SporadicScheduler.c:57:6:NormalTask2	4	static

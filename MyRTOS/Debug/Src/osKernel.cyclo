@@ -1,0 +1,11 @@
+..//chip_headers/CMSIS/Include/core_cm4.h:1816:22:__NVIC_SetPriority	2
+../Src/osKernel.c:11:6:osKernelStackInit	1
+../Src/osKernel.c:38:9:osKernelAddThreads	1
+../Src/osKernel.c:62:6:osKernelInit	1
+../Src/osKernel.c:67:6:osKernelLaunch	1
+../Src/osKernel.c:85:29:SysTick_Handler	1
+../Src/osKernel.c:131:6:osSchedulerLaunch	1
+../Src/osKernel.c:157:6:osThreadYield	1
+../Src/osKernel.c:177:6:osSemaphoreInit	1
+../Src/osKernel.c:182:6:osSemaphoreGive	1
+../Src/osKernel.c:189:6:osSemaphoreWait	2

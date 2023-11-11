@@ -1,0 +1,3 @@
+../Src/gpio.c:3:6:gpio_init	1
+../Src/gpio.c:12:9:isButtonPressed	1
+../Src/gpio.c:25:6:GPIO_SetReset_Pin	2

@@ -1,0 +1,7 @@
+#ifndef __FIFO_H__
+#define __FIFO_H__
+
+void FIFO_task0();
+void FIFO_task1();
+void FIFO_task2();
+#endif

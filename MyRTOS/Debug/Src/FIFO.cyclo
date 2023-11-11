@@ -1,0 +1,6 @@
+../Src/FIFO.c:10:6:osFifoInit	1
+../Src/FIFO.c:17:8:osFifoPut	2
+../Src/FIFO.c:30:10:osFifoGet	1
+../Src/FIFO.c:42:6:FIFO_task0	2
+../Src/FIFO.c:53:6:FIFO_task1	1
+../Src/FIFO.c:61:6:FIFO_task2	1

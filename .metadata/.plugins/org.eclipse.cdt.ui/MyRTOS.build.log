@@ -1,0 +1,27 @@
+02:08:56 **** Incremental Build of configuration Debug for project MyRTOS ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/osKernel.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F411RETx -DSTM32F411xE -c -I../Inc -I"..//chip_headers/CMSIS/Device/ST/STM32F4xx/Include" -I"..//chip_headers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/osKernel.d" -MT"Src/osKernel.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/osKernel.o"
+../Src/osKernel.c: In function 'osKernelAddThreads':
+../Src/osKernel.c:42:18: warning: assignment to 'struct tcb *' from incompatible pointer type 'uint32_t **' {aka 'long unsigned int **'} [-Wincompatible-pointer-types]
+   42 |   tcbs[0].nextPt = &tcbs[1].stackPt;
+      |                  ^
+../Src/osKernel.c:43:18: warning: assignment to 'struct tcb *' from incompatible pointer type 'uint32_t **' {aka 'long unsigned int **'} [-Wincompatible-pointer-types]
+   43 |   tcbs[1].nextPt = &tcbs[2].stackPt;
+      |                  ^
+../Src/osKernel.c:44:18: warning: assignment to 'struct tcb *' from incompatible pointer type 'uint32_t **' {aka 'long unsigned int **'} [-Wincompatible-pointer-types]
+   44 |   tcbs[2].nextPt = &tcbs[0].stackPt;
+      |                  ^
+arm-none-eabi-gcc -o "MyRTOS.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\MyRTOSForSTM32F4xx\MyRTOS\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MyRTOS.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MyRTOS.elf
+ 
+arm-none-eabi-size   MyRTOS.elf 
+arm-none-eabi-objdump -h -S  MyRTOS.elf  > "MyRTOS.list"
+   text	   data	    bss	    dec	    hex	filename
+   1896	      8	   2816	   4720	   1270	MyRTOS.elf
+Finished building: default.size.stdout
+ 
+Finished building: MyRTOS.list
+ 
+
+02:09:00 Build Finished. 0 errors, 3 warnings. (took 3s.835ms)
+

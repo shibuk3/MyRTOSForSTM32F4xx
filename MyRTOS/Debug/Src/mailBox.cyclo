@@ -1,0 +1,6 @@
+../Src/mailBox.c:7:6:osMailBoxInit	1
+../Src/mailBox.c:13:6:osMailBoxSend	2
+../Src/mailBox.c:27:10:osMailBoxRecv	1
+../Src/mailBox.c:39:6:MB_task0	1
+../Src/mailBox.c:47:6:MB_task1	1
+../Src/mailBox.c:55:6:MB_task2	1

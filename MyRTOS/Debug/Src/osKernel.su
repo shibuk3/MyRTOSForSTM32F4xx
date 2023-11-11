@@ -1,0 +1,11 @@
+..//chip_headers/CMSIS/Include/core_cm4.h:1816:22:__NVIC_SetPriority	16	static
+../Src/osKernel.c:11:6:osKernelStackInit	16	static
+../Src/osKernel.c:38:9:osKernelAddThreads	24	static,ignoring_inline_asm
+../Src/osKernel.c:62:6:osKernelInit	4	static
+../Src/osKernel.c:67:6:osKernelLaunch	16	static
+../Src/osKernel.c:85:29:SysTick_Handler	0	static,ignoring_inline_asm
+../Src/osKernel.c:131:6:osSchedulerLaunch	4	static,ignoring_inline_asm
+../Src/osKernel.c:157:6:osThreadYield	4	static
+../Src/osKernel.c:177:6:osSemaphoreInit	16	static
+../Src/osKernel.c:182:6:osSemaphoreGive	16	static,ignoring_inline_asm
+../Src/osKernel.c:189:6:osSemaphoreWait	16	static,ignoring_inline_asm

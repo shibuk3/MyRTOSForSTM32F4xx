@@ -1,0 +1,10 @@
+#ifndef __CONFIG_H__
+#define __CONFIG_H__
+
+#define PERIODIC_SCHEDULER                     1
+#define PERIODIC_SCHEDULER_WITH_HARDWARE       2
+#define PERIODIC_SCHEDULER                     3
+#define SPORADIC_SCHEDULER                     4
+#define SCHEDULER                              SPORADIC_SCHEDULER
+
+#endif

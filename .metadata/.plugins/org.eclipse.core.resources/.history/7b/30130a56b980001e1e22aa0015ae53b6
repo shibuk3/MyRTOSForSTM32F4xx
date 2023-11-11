@@ -1,0 +1,8 @@
+#ifndef __MAILBOX_H__
+#define __MAILBOX_H__
+
+void MB_task0();
+void MB_task1();
+void MB_task2();
+
+#endif
